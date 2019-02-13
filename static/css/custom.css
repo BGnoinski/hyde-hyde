@@ -7,3 +7,6 @@ pre code, li code, td code, code
     background: #d3d3d3;
 }
 
+.highlight {
+  color: #0000ff;
+}
