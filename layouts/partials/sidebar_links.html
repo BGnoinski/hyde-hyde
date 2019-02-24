@@ -1,0 +1,8 @@
+<section class="row text-center">
+	{{ with .Site.Params.links.tags }}
+	<a href="https://ben.gnoinski.ca/{{.}}">Tags</a><br/>
+	{{ end }}
+	{{ with .Site.Params.links.categories }}
+	&nbsp;<a href="https://ben.gnoinski.ca/{{.}}">Categories</a><br/>
+	{{ end }}
+</section>

@@ -10,3 +10,7 @@ pre code, li code, td code, code
 .highlight {
   color: #0000ff;
 }
+
+#grey {
+  color: inherit;
+}

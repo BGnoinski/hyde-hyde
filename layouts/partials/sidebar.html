@@ -9,6 +9,9 @@
     </div>
     {{ partial "sidebar_menu.html" . }}
     <p>
+      {{ partial "sidebar_links.html" . }}
+    </p>    
+    <p>
       {{ partial "sidebar_social.html" . }}
     </p>
     <p class="copyright">{{ with .Site.Params.copyright }}{{.|safeHTML}}{{ else }}&copy; {{ now.Format "2006"}} {{.Site.Params.author}}.
